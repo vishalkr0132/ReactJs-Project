@@ -9,6 +9,7 @@ import { Card } from 'react-bootstrap';
 import { Button } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faPhone, faSearch } from '@fortawesome/free-solid-svg-icons';
 // import { blog } from './Data/blog';
 
 function App() {
@@ -24,6 +25,8 @@ function App() {
         <h1>This is the Header Section</h1>
       </Header>
       <FontAwesomeIcon icon={faWhatsapp} className='text-danger'/>
+      <FontAwesomeIcon icon={faPhone} className='text-danger'/>
+      <FontAwesomeIcon icon={faSearch}/>
 
       <Container fluid>
         <Container>
