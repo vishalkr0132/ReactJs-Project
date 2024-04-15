@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(253,248,234)!important;
+}
+
+.title {
+    padding: 0px 10px;
+}
+
+.title h1 {
+    width: 76%;
+    margin: 20px auto;
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px; 
+    letter-spacing: 1px;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    grid-template-rows: 20px 0;
+    grid-gap: 22px;
+    color:rgb(255, 255, 255);
+    background: #000;
+    padding: 10px 0px 5px;
+}
+
+.title h1:after,.title h1:before {
+    content: "";
+    display: block;
+    border-bottom: 2px solid rgb(0, 0, 0);
+}
+
